@@ -1,0 +1,16 @@
+1.	Pengoperasian Dasar Kontainer Nginx
+•	Mengunduh Image Nginx Langkah pertama adalah menarik image nginx:alpine dari Docker Hub menggunakan perintah docker pull agar tersedia di penyimpanan lokal.
+•	Menjalankan Kontainer Aktifkan kontainer dengan perintah docker run -d menggunakan nama web-praktikum dan lakukan pemetaan port 8080:80.
+•	Verifikasi Browser (Standard) Buka browser dan akses localhost:8080 untuk memastikan server Nginx standar sudah berjalan dengan munculnya halaman "Welcome to nginx!".
+•	Memeriksa Log dan Status Gunakan perintah docker logs untuk melihat catatan aktivitas sistem dan memastikan tidak ada error pada saat startup.
+•	Eksplorasi Internal Kontainer Masuk ke dalam kontainer menggunakan docker exec -it untuk mengecek informasi sistem dengan perintah uname -a.
+•	Pengecekan File Konfigurasi Lihat daftar file web di direktori /usr/share/nginx/html menggunakan ls dan baca konfigurasi utama Nginx menggunakan perintah cat.
+•	Pembersihan Setelah selesai, hapus kontainer yang sudah tidak digunakan menggunakan perintah docker rm.
+2.	Membuat Custom Image (Modifikasi Tampilan)
+•	Persiapan Folder Proyek Buat direktori kerja baru bernama praktikum-docker dan sub-folder app untuk menyimpan file HTML kustom Anda.
+•	Proses Build Image Jalankan perintah docker build -t praktikum-docker:v1 . untuk memaketkan file HTML kustom ke dalam sebuah image Docker baru.
+•	Verifikasi Tampilan Kustom Jalankan kontainer dari image baru tersebut, lalu akses browser untuk melihat tampilan web yang sudah dimodifikasi dengan identitas (ARINA MANASIKANA/105841108623) Anda.
+3.	Manajemen Multi-Kontainer (Docker Compose)
+•	Mengecek Status Layanan Gunakan perintah docker compose ps untuk melihat status operasional dari beberapa layanan (seperti API dan Database) secara sekaligus.
+•	Monitoring Log Gabungan Pantau seluruh aktivitas layanan yang berjalan di Docker Compose melalui perintah docker compose logs -f untuk melihat interaksi antar kontainer secara real-time.
+•	Uji Coba Layanan Tambahan Pastikan layanan kedua (seperti Apache pada port 8081) juga berjalan dengan baik melalui browser.
