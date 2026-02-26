@@ -1,0 +1,7 @@
+Pemahaman DevOps
+
+•	Menurut pandangan saya, DevOps bukan sekadar penggunaan tools otomatisasi, melainkan sebuah pergeseran budaya yang menjembatani jurang pemisah antara tim pengembang (Development) dan tim operasional (Operations). Dulu, kedua tim ini sering bekerja dalam "silogisme" sendiri-sendiri—Developer fokus membuat fitur, sementara tim Ops fokus menjaga stabilitas server. Akibatnya, proses rilis sering terhambat oleh miskomunikasi. DevOps hadir untuk menyatukan mereka dalam satu siklus hidup aplikasi yang berkelanjutan, mulai dari perencanaan, pengkodean, hingga monitoring di tangan pengguna.
+
+•	Di industri perangkat lunak saat ini, DevOps menjadi sangat krusial karena tuntutan pasar yang sangat dinamis. Perusahaan tidak lagi bisa menunggu berbulan-bulan hanya untuk merilis satu fitur kecil. Dengan metode seperti Continuous Integration dan Continuous Deployment (CI/CD), risiko kesalahan manusia bisa diminimalisir melalui pengujian otomatis. Hal ini membuat siklus rilis menjadi lebih cepat, stabil, dan efisien secara biaya.
+
+•	Salah satu contoh nyata kesuksesan implementasi DevOps adalah Netflix. Mereka mengelola ribuan microservices yang terus diperbarui setiap harinya tanpa menyebabkan downtime yang berarti bagi pelanggan. Netflix bahkan mengembangkan alat seperti "Chaos Monkey" untuk menguji ketahanan sistem mereka secara proaktif. Keberhasilan mereka membuktikan bahwa dengan kultur DevOps yang kuat, perusahaan besar tetap bisa bergerak selincah startup.
